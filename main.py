@@ -14,7 +14,7 @@ port=5432
 )
 cursor = conn.cursor()
 cursor.execute("SET search_path TO project")
-
+# Схема не по умолчанию
 dsn = "postgresql://{user}:{password}@localhost:5432/postgres".format(
     user=os.getenv("DATABASE_USER"),
     password=os.getenv("DATABASE_PASSWORD")
@@ -138,5 +138,6 @@ except Exception as e:
 
 cursor.close()
 conn.close()
+
 
 
