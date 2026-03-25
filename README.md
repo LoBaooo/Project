@@ -20,7 +20,7 @@
 1. Скачать проект на свой компьютер.
 2. Открыть папку с проектом в VScode.
 3. Создать файл `.env` в папке проекта и написать в нем 2 строчки: `DATABASE_USER=postgres` и `DATABASE_PASSWORD=ваш_пароль_от_базы`
-4. Открыть терминал в VScode (Terminal -> New Terminal).
+4. Открыть терминал в VScode (Terminal - New Terminal).
 5. Создать виртуальное окружение командой: `python -m venv venv`
 6. Активировать виртуальное окружение для Windows: `venv\Scripts\activate` (или для Mac: `source venv/bin/activate`)
 7. Установить необходимые библиотеки командой: `pip install -r requirements.txt`
